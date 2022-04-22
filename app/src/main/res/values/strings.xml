@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">yogiyoRestaurant</string>
+    <string-array name="namaResto">
+        <item>Resto 1</item>
+        <item>Resto 2</item>
+        <item>Resto 3</item>
+        <item>Resto 4</item>
+        <item>Resto 5</item>
+        <item>Resto 6</item>
+        <item>Resto 7</item>
+        <item>Resto 8</item>
+        <item>Resto 9</item>
+        <item>Resto 10</item>
+    </string-array>
+
+    <string-array name="rating">
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>5</item>
+        <item>4</item>
+        <item>4</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="banyakRating">
+        <item>(1)</item>
+        <item>(2)</item>
+        <item>(2)</item>
+        <item>(1)</item>
+        <item>(1)</item>
+        <item>(2)</item>
+        <item>(1)</item>
+        <item>(3)</item>
+        <item>(1)</item>
+        <item>(5)(</item>
+    </string-array>
+
+    <string-array name="waktuKirim">
+        <item>50-60 Menit</item>
+        <item>50-60 Menit</item>
+        <item>50-60 Menit</item>
+        <item>50-60 Menit</item>
+        <item>50-60 Menit</item>
+        <item>50-60 Menit</item>
+        <item>50-60 Menit</item>
+        <item>50-60 Menit</item>
+        <item>50-60 Menit</item>
+        <item>50-60 Menit</item>
+    </string-array>
+
+    <string-array name="jarak">
+        <item>3km</item>
+        <item>3km</item>
+        <item>3km</item>
+        <item>3km</item>
+        <item>3km</item>
+        <item>3km</item>
+        <item>3km</item>
+        <item>3km</item>
+        <item>3km</item>
+        <item>3km</item>
+    </string-array>
+
+    <string-array name="hargaOngkir">
+        <item>Rp. 5.000</item>
+        <item>Rp. 7.000</item>
+        <item>Rp. 3.000</item>
+        <item>Rp. 2.000</item>
+        <item>Rp. 5.000</item>
+        <item>Rp. 3.000</item>
+        <item>Rp. 5.000</item>
+        <item>Rp. 7.000</item>
+        <item>Rp. 5.000</item>
+        <item>Rp. 3.000</item>
+    </string-array>
+
+    <string-array name="descMenu">
+        <item>Enak bener ini asli</item>
+        <item>Enak bener ini asli</item>
+        <item>Enak bener ini asli</item>
+        <item>Enak bener ini asli</item>
+        <item>Enak bener ini asli</item>
+        <item>Enak bener ini asli</item>
+        <item>Enak bener ini asli</item>
+        <item>Enak bener ini asli</item>
+        <item>Enak bener ini asli</item>
+        <item>Enak bener ini asli</item>
+        <item>Enak bener ini asli</item>
+    </string-array>
+</resources>

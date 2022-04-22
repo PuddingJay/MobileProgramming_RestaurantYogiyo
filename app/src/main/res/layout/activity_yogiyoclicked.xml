@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yogiyoclicked">
+
+    <ImageView
+        android:id="@+id/iv2_food"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/agri" />
+
+    <TextView
+        android:id="@+id/tv2_banyakFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="19dp"
+        android:text="134"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv2_love" />
+
+    <ImageView
+        android:id="@+id/iv2_star"
+        android:layout_width="26dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/tv2_namaResto"
+        app:layout_constraintTop_toBottomOf="@+id/tv2_namaResto"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/iv2_love"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv2_food"
+        app:srcCompat="@drawable/heart" />
+
+    <ImageView
+        android:id="@+id/iv2_share"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv2_love"
+        app:layout_constraintTop_toBottomOf="@+id/iv2_food"
+        app:srcCompat="@drawable/share" />
+
+    <TextView
+        android:id="@+id/tv2_namaResto"
+        android:layout_width="207dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="RESTO 1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv2_food" />
+
+    <TextView
+        android:id="@+id/tv2_banyakRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
+        android:text="4.9"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv2_star"
+        app:layout_constraintTop_toBottomOf="@+id/tv2_namaResto" />
+
+    <TextView
+        android:id="@+id/tv2_biayaPesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Biaya minimal pemesanan"
+        app:layout_constraintStart_toStartOf="@+id/iv2_star"
+        app:layout_constraintTop_toBottomOf="@+id/iv2_star" />
+
+    <TextView
+        android:id="@+id/tv2_harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="Rp. 20.000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tv2_biayaPesanan"
+        app:layout_constraintTop_toBottomOf="@+id/iv2_star" />
+
+    <TextView
+        android:id="@+id/tv2_ongkir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Ongkir"
+        app:layout_constraintStart_toStartOf="@+id/tv2_biayaPesanan"
+        app:layout_constraintTop_toBottomOf="@+id/tv2_biayaPesanan" />
+
+    <TextView
+        android:id="@+id/tv2_estimasiKirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Estimasi sampai"
+        app:layout_constraintStart_toStartOf="@+id/tv2_ongkir"
+        app:layout_constraintTop_toBottomOf="@+id/tv2_ongkir" />
+
+    <TextView
+        android:id="@+id/tv2_jarak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Jarak"
+
+        app:layout_constraintStart_toStartOf="@+id/tv2_estimasiKirim"
+        app:layout_constraintTop_toBottomOf="@+id/tv2_estimasiKirim" />
+
+    <TextView
+        android:id="@+id/tv2_biayaOngkir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text="Rp. 3.000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tv2_ongkir"
+        app:layout_constraintTop_toBottomOf="@+id/tv2_biayaPesanan" />
+
+    <TextView
+        android:id="@+id/tv2_waktuKirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:text="26 min"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tv2_estimasiKirim"
+        app:layout_constraintTop_toBottomOf="@+id/tv2_ongkir" />
+
+    <TextView
+        android:id="@+id/tv2_jarakKirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:text="3km"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tv2_jarak"
+        app:layout_constraintTop_toBottomOf="@+id/tv2_estimasiKirim" />
+
+    <TextView
+        android:id="@+id/tv2_diRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:text="dirating 230 >"
+        app:layout_constraintStart_toEndOf="@+id/tv2_banyakRating"
+        app:layout_constraintTop_toBottomOf="@+id/tv2_namaResto" />
+</androidx.constraintlayout.widget.ConstraintLayout>
